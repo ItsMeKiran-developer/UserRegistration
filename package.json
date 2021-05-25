@@ -1,0 +1,23 @@
+{
+  "name": "learning-full-stack-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
